@@ -1,4 +1,4 @@
-import type { ServerSideAdInsertionConfiguration } from 'theoplayer';
+import type { ServerSideAdInsertionConfiguration, SSAIIntegrationId } from 'theoplayer';
 
 /**
  * The identifier of the Yospace integration.
@@ -21,7 +21,7 @@ export interface YospaceServerSideAdInsertionConfiguration extends ServerSideAdI
     /**
      * The identifier for the Yospace integration.
      */
-    integration: YospaceSSAIIntegrationID;
+    integration: SSAIIntegrationId;
 
     /**
      * The type of the requested stream.
